@@ -2,19 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using u = UnityEngine;
 
-public class MusicPlayer : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
-
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("LoadFirstScene", 10f);
+        Invoke("LoadFirstScene", 2f);
     }
 
     void LoadFirstScene()
@@ -25,6 +19,6 @@ public class MusicPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
