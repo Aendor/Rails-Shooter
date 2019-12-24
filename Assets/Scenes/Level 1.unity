@@ -218,16 +218,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 280.288
       objectReference: {fileID: 0}
-    - target: {fileID: 8112316184331738426, guid: 8af8472658fccc14a971e4e5dc4400a6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 30.98231
-      objectReference: {fileID: 0}
-    - target: {fileID: 8112316184331738426, guid: 8af8472658fccc14a971e4e5dc4400a6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 30.982319
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8af8472658fccc14a971e4e5dc4400a6, type: 3}
 --- !u!1 &142154178
@@ -451,6 +441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 34.803852
+      objectReference: {fileID: 0}
+    - target: {fileID: 7795780550108467849, guid: 20c049d247d71784a80bb801d56e7611,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20c049d247d71784a80bb801d56e7611, type: 3}
@@ -1009,6 +1004,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 34.836487
       objectReference: {fileID: 0}
+    - target: {fileID: 7795780550108467849, guid: 20c049d247d71784a80bb801d56e7611,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20c049d247d71784a80bb801d56e7611, type: 3}
 --- !u!4 &1323060924 stripped
@@ -1097,6 +1097,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 972358884}
     m_Modifications:
+    - target: {fileID: 2039388009466714862, guid: 8af8472658fccc14a971e4e5dc4400a6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8108405447905849654, guid: 8af8472658fccc14a971e4e5dc4400a6,
         type: 3}
       propertyPath: m_Name
@@ -1181,6 +1186,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 972358884}
     m_Modifications:
+    - target: {fileID: 2039388009466714862, guid: 8af8472658fccc14a971e4e5dc4400a6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8108405447905849654, guid: 8af8472658fccc14a971e4e5dc4400a6,
         type: 3}
       propertyPath: m_Name
@@ -1507,6 +1517,11 @@ PrefabInstance:
       propertyPath: deathFX
       value: 
       objectReference: {fileID: 1851993576}
+    - target: {fileID: 226713931279631050, guid: 745d42a1913075a49a4cb4871ea2368e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bullets Right
+      objectReference: {fileID: 0}
     - target: {fileID: 3487383624107256165, guid: 745d42a1913075a49a4cb4871ea2368e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1566,6 +1581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489050632997316192, guid: 745d42a1913075a49a4cb4871ea2368e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bullets Left
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 745d42a1913075a49a4cb4871ea2368e, type: 3}
