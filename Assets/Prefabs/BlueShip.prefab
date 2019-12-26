@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8112316184331738426}
   - component: {fileID: 8141724643900766108}
   - component: {fileID: 8130731257107528522}
-  - component: {fileID: 2039388009466714862}
   - component: {fileID: 1533741666818488312}
   m_Layer: 0
   m_Name: BlueShip
@@ -80,19 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2039388009466714862
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8108405447905849654}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6466486, y: 0.6331278, z: 0.09151088}
-  m_Center: {x: 0, y: 0, z: 0.00000047683716}
 --- !u!114 &1533741666818488312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,4 +91,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fc164a9031a1a6468432ce79d391352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathFX: {fileID: 0}
+  deathFX: {fileID: 421015581256807717, guid: 9bb0748bff385a84982c42f0500b93eb, type: 3}
+  parent: {fileID: 0}

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3245160110280524215}
   - component: {fileID: 3274375300926255379}
   - component: {fileID: 3265740443969553419}
-  - component: {fileID: 7795780550108467849}
   - component: {fileID: 3243118788836461839}
   m_Layer: 0
   m_Name: RedShip
@@ -80,19 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7795780550108467849
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3244220561011575423}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5975954, y: 0.17319097, z: 0.6766173}
-  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!114 &3243118788836461839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,4 +91,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fc164a9031a1a6468432ce79d391352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathFX: {fileID: 0}
+  deathFX: {fileID: 421015581256807717, guid: 9bb0748bff385a84982c42f0500b93eb, type: 3}
+  parent: {fileID: 0}
