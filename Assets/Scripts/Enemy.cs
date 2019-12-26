@@ -7,14 +7,17 @@ public class Enemy : MonoBehaviour
 {
     [Tooltip("FX prefab on enemy")] [SerializeField] GameObject deathFX;
     [SerializeField] Transform  parent;
+    ScoreBoard scoreBoard;
+    [SerializeField] int scorePerHit = 12;
 
     // Start is called before the first frame update
     void Start()
     {
-        AddNonTriggerBoxCollider();
+        AddBoxCollider();
+        scoreBoard = FindObjectOfType<ScoreBoard>();
     }
 
-    private void AddNonTriggerBoxCollider()
+    private void AddBoxCollider()
     {
         BoxCollider boxCollider = gameObject.AddComponent<BoxCollider>();
         boxCollider.isTrigger = false;
@@ -27,6 +30,8 @@ public class Enemy : MonoBehaviour
     }
     void OnParticleCollision(GameObject other)
     {
+        scoreBoard.ScoreHit(scorePerHit);
+
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
         fx.transform.SetParent(parent);
 

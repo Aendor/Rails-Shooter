@@ -23,6 +23,13 @@ public class PlayerController : MonoBehaviour
 
     private bool isControlEnabled = true;
 
+    ScoreBoard scoreBoard;
+
+    void Start()
+    {
+        scoreBoard = FindObjectOfType<ScoreBoard>();
+    }
+
     void Update()
     {
         if (isControlEnabled)
